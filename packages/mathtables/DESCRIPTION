@@ -1,9 +1,11 @@
 Package: mathtables
 Type: Package
 Title: Create Arithmetic Tables
-Version: 1.0
+Version: 1.1
 Date: 2022-01-19
 Author: Armin Schwartzman
 Maintainer: Armin Schwartzman <armins@ucsd.edu>
 Description: Make tables for simple integer arithmetic operations.
 License: GPL ( >= 2.0)
+Imports: Rcpp (>= 0.12.16)
+LinkingTo: Rcpp
