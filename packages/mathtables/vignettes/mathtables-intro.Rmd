@@ -1,0 +1,53 @@
+
+---
+title: "Tables for Learning Arithmetic"
+output:
+  rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{Tables for Learning Arithmetic}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+bibliography: ["Rrefs.bib"]
+biblio-style: "apalike"
+link-citations: true
+---
+
+```{r echo=FALSE}
+library(mathtables)
+```
+
+# Introduction
+
+The `mathtables` package will format tables that can be used to do
+arithmetic drills such as are needed to learn addition and
+multiplication.
+
+# Adding Numbers
+
+Here is a table that shows how to add from 1 to 5.
+
+```{r}
+plus( 1:5, 1:5 )
+```
+
+# Multiplying Numbers
+
+here is a table that shows how to multiply numbers.
+
+
+```{r}
+times( 1:9, 1:9 )
+```
+# Acknowledgement
+
+This document depended on the packages
+
+* Rcpp [@Rcpp-article, @Rcpp-book, @Rcpp-brief]
+* markdown [@R-markdown]
+* knitr [@R-knitr]
+
+and the R environment [@R-man] to get it done.
+
+
+# References
+
